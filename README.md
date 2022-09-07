@@ -1,0 +1,1 @@
+python train.py --workers 1 --device 0 --batch-size 4 --data data/lego.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights 'yolov7.pt' --name yolov7-custom --hyp data/hyp.scratch.custom.yaml
